@@ -1,0 +1,129 @@
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+  <title>JavaScript Poker Game</title>
+  <link rel="stylesheet" href="css/main.css" type="text/css" media="screen" />
+  <script type="text/javascript" src="js/init.js"></script>
+  <script type="text/javascript" src="js/poker.js"></script>
+  <meta name="description" content="JavaScript poker game." />
+  <meta name="keywords" content="Paul, Griffiths, Paul Griffiths, Web Development, JavaScript, poker, game, poker game" />
+  <meta name="author" content="Paul Griffiths" />
+  <meta name="copyright" content="Copyright 2007 Paul Griffiths" />
+</head>
+
+<body>
+
+<div id="main">
+<div id="content">
+
+<h1>JavaScript Poker Game</h1>
+
+<!--  Game table  -->
+
+<div class="maintable">
+<form action="none" method="get">
+<table>
+
+<tr>
+  <td colspan="5" class="control">
+    <input type="text" name="info" value="It's time to play! Click deal!"
+      size="50" />
+  </td>
+</tr>
+
+<tr>
+  <th scope="row">Bet:</th>
+  <td>
+    <input type="text" name="bet" value="5" size="10" />
+  </td>
+  <td>&nbsp;</td>
+  <th scope="row">Winnings:</th>
+  <td>
+    <input type="text" name="money" value="100" size="10" />
+  </td>
+</tr>
+
+<tr>
+  <td class="image"><a href="javascript: flipcard(0);">
+    <img src="img/cards/b.gif" width="73px" height="97px"
+       alt="[card]" class="card" /></a></td>
+  <td class="image"><a href="javascript: flipcard(1);">
+    <img src="img/cards/b.gif" width="73px" height="97px"
+       alt="[card]" class="card" /></a></td>
+  <td class="image"><a href="javascript: flipcard(2);">
+    <img src="img/cards/b.gif" width="73px" height="97px"
+       alt="[card]" class="card" /></a></td>
+  <td class="image"><a href="javascript: flipcard(3);">
+    <img src="img/cards/b.gif" width="73px" height="97px"
+       alt="[card]" class="card" /></a></td>
+  <td class="/image"><a href="javascript: flipcard(4);">
+    <img src="img/cards/b.gif" width="73px" height="97px"
+       alt="[card]" class="card" /></a></td>
+</tr>
+
+<tr>
+    <td colspan="5" class="control">
+        <input type="button" name="deal" value="Deal!"
+        onclick="dealcards();" />
+    </td>
+</tr>
+
+</table>
+</form>
+</div>
+
+
+<!--  Winnings info table  -->
+
+<div class="maintable">
+<table>
+    <tr><th scope="col">Hand</th><th scope="col">Return</th></tr>
+    <tr><td>Royal Flush</td><td>1 : 2500</td></tr>
+    <tr><td>Straight Flush</td><td>1 : 250</td></tr>
+    <tr><td>Four of a kind</td><td>1 : 100</td></tr>
+    <tr><td>Full House</td><td>1 : 50</td></tr>
+    <tr><td>Flush</td><td>1 : 20</td></tr>
+    <tr><td>Straight</td><td>1 : 15</td></tr>
+    <tr><td>Three of a kind</td><td>1 : 4</td></tr>
+    <tr><td>Two pair</td><td>1 : 3</td></tr>
+    <tr><td>Jacks or better</td><td>1 : 2</td></tr>
+</table>
+</div>
+
+
+<div id="footer"><p id="copyright">&copy; Copyright 1995&ndash;2017 Paul Griffiths</p></div>
+
+</div>  <!--  #content  -->
+
+
+<div id="sidebar">
+
+<div id="navmenu">
+<h2>Navigation menu</h2>
+<ul>
+  <li><a href="/">Home</a></li>
+  <li><a href="/sitemap.php">Site map</a></li>
+  <li><a href="/apps/">iPhone/iPad Apps</a></li>
+  <li><a href="/program/">Programming</a></li>
+  <li><a href="/web/">Web development</a></li>
+  <li><a href="/aboutme.php">About me</a></li>
+  <li><a href="/blog/">Blog</a></li>
+</ul>
+</div>  <!--  #navmenu  -->
+
+
+
+
+</div>  <!--  #googleads  -->
+
+</div>  <!--  #main -->
+
+
+</body>
+
+</html>
