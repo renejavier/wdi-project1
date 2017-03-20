@@ -3,7 +3,7 @@
 })();
 
 // Adds ipad/iphone swipe with finger functionality
-
+//
 // $(document).ready(function() {
 //    $("#theCarousel").swiperight(function() {
 //       $("#theCarousel").carousel('prev');
@@ -12,7 +12,7 @@
 //       $("#theCarousel").carousel('next');
 //    });
 // });
-
+//
 // $(document).ready(function() {
 //       $(".carousel-inner").swiperight(function() {
 //          $(this).carousel('prev');
